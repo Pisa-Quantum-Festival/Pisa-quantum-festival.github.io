@@ -53,16 +53,12 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <!-- <li><a href="#about">About</a></li> -->
           <li><a href="#about">Festival</a></li>
-          <li><a href="#speakers">Ospiti</a></li>
-          <!-- <li><a href="#schedule">Schedule</a></li> -->
           <li><a href="#schedule">Programma</a></li>
-          <li><a href="#venue">Venue</a></li>
+          <li><a href="#speakers">Ospiti</a></li>
+          <li><a href="#venue">Dove</a></li>
           <li><a href="#supporters">Sponsor</a></li>
-          <!-- <li><a href="#contact">Contact</a></li> -->
           <li><a href="#contact">Contatti</a></li>
-          <!-- <li class="buy-tickets"><a href="#buy-tickets">Prenota</a></li> -->
           <li class="buy-tickets"><a href="#buy-tickets">Prenotati!</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -74,11 +70,13 @@
   ============================-->
   <section id="intro">
     <div class="intro-container wow fadeIn">
-      <h1 class="mb-4 pb-1">Pisa<br><span>Quantum<br></span>Festival</h1>
-      <p class="mb-4 pb-0">La prima conferenza divulgativa gratuita sulla computazione quantistica a Pisa!<br> 21-22
-        Novembre,
-        Polo
-        Fibonacci, Pisa</p>
+      <h1 class="mb-4 pb-1" style="font-size: 65px;">Pisa<br><span>Quantum<br></span>Festival</h1>
+      <>
+      <p class="mb-4 pb-0" style="font-size: 25px;">
+        La prima conferenza divulgativa sulla computazione quantistica<br>
+        Completamente gratuito. <br>
+        Un hackathon con 400€ in palio. <br>
+         21-22 Novembre, Polo Fibonacci, Pisa</p>
       <!-- <a href="#about" class="about-btn scrollto">About The Event</a> -->
       <a href="#about" class="about-btn scrollto">Scopri di più</a>
     </div>
@@ -95,116 +93,99 @@
           <div class="col-lg-6">
             <!-- <h2>About The Event</h2> -->
             <h2>Il Festival</h2>
-            <p>
+            <p style="font-size: 17px;">
               Rivolto a tutti gli studenti e agli appassionati, Pisa Quantum Festival 
               è l'occassione perfetta per immergersi nel mondo del Quantum Computing! 
               Ospiti internazionali dall'accademia e dall'industria ci porteranno dalle 
               basi del Quantum fino alle ultime scoperte. 
-              Unisciti a noi per due giorni di tutorial, seminari e hackaton e premi!
+              Unisciti a noi per due giorni di tutorial, seminari, hackathon e premi!
             </p>
           </div>
           <div class="col-lg-3">
             <!-- <h3>Where</h3> -->
             <h3>Dove</h3>
-            <p>Polo Fibonacci <br> Edificio E <br> Aula Magna <br> Largo Bruno Pontecorvo, 3, 56127 Pisa</p>
+            <p style="font-size: 17px;">Polo Fibonacci <br> Edificio E <br> Aula Magna <br> Largo Bruno Pontecorvo, 3, 56127 Pisa</p>
           </div>
           <div class="col-lg-3">
             <!-- <h3>When</h3> -->
             <h3>Quando</h3>
-            <p>21-22 Novembre 2024</p>
+            <p style="font-size: 17px;">21-22 Novembre 2024</p>
+            <h3>Lingua</h3>
+            <p style="font-size: 17px;"> Evento totalmente in italiano!</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!--==========================
-      Speakers Section
+        <!--==========================
+      Buy Ticket Section
     ============================-->
-    <section id="speakers" class="wow fadeInUp">
+    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
       <div class="container">
+
         <div class="section-header">
-          <!-- <h2>Event Speakers</h2> -->
-          <h2>Ospiti</h2>
-          <p>In Aggiornamento</p>
+          <h2>Prenota il biglietto</h2>
+          <p class="bigFont" style="font-size:30px">Posti limitati!</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/caruso.jpg" alt="Speaker 2" class="img-fluid">
-              <div class="details">
-                <h3>Filippo Caruso</h3>
-                <p>Università di Firenze</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+      
+        <div class="row justify-content-center">
+        
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">21 Novembre</h5>
+                <h6 class="card-price text-center">Conferenza</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-clock-o"></i></span>09:00 - 18:30</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Quantum Computing 101</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Speaker da Accademia e Industria</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Pranzo e Cofee Breaks Offerti</li>
+                  <!-- <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Hackaton</li> -->
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" 
+                    data-ticket-type="pro-access" 
+                    onclick="window.open(
+                      'https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?',
+                      '_blank' // <- This is what makes it open in a new window.
+                    )">
+                    Prenota!
+                </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/cavallini.jpg" alt="Speaker 4" class="img-fluid">
-              <div class="details">
-                <h3>Luca Cavallini</h3>
-                <p>IBM</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">22 Novembre</h5>
+                <h6 class="card-price text-center">Hackathon</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-clock-o"></i></span>9:00 - 13:00</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Quantum Hackathon</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Premiazione (400€ in buoni Amazon)</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break Offerto</li>
+                  <!-- <li><span class="fa-li"><i class="fa fa-check"></i></span>Hackathon</li> -->
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" 
+                    data-ticket-type="pro-access" 
+                    onclick="window.open(
+                      'https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?',
+                      '_blank' // <- This is what makes it open in a new window.
+                    )">
+                    Prenota!
+                </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/chiofalo.jpg" alt="Speaker 3" class="img-fluid">
-              <div class="details">
-                <h3>Maria Luisa Chiofalo</h3>
-                <p>Università di Pisa</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/corbelletto.png" alt="Speaker 1" class="img-fluid">
-              <div class="details">
-                <h3>Davide Corbelletto</h3>
-                <p>Intesa Sanpaolo</p>
-                <div class="social"> <!-- settato a 0px di altezza tramite css-->
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/santini.jpeg" alt="Speaker 5" class="img-fluid">
-              <div class="details">
-                <h3>Paolo Santini</h3>
-                <p>Università Politecnica delle Marche</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
 
     </section>
@@ -212,7 +193,7 @@
     <!--==========================
       Schedule Section
     ============================-->
-    <section id="schedule" class="section-with-bg" > <!--Schedule section temp-->
+    <section id="schedule" > <!--Schedule section temp-->
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h2>Programma</h2>
@@ -221,7 +202,7 @@
         </div>
       </div>
     </section>
-    <section id="schedule" class="section-with-bg"  style="display:none">
+    <section id="schedule"  style="display:none">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <!-- <h2>Event Schedule</h2> -->
@@ -513,6 +494,86 @@
     </section>
 
     <!--==========================
+      Speakers Section
+    ============================-->
+    <section id="speakers" class="wow fadeInUp section-with-bg">
+      <div class="container">
+        <div class="section-header">
+          <!-- <h2>Event Speakers</h2> -->
+          <h2>Ospiti</h2>
+          <p>In Aggiornamento</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/biondi.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3>Stefano Biondi</h3>
+                <p>Generali Real Estate</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/caruso.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3>Filippo Caruso</h3>
+                <p>Università di Firenze</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/cavallini.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3>Luca Cavallini</h3>
+                <p>IBM</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/chiofalo.jpg" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3>Maria Luisa Chiofalo</h3>
+                <p>Università di Pisa</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/corbelletto.png" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3>Davide Corbelletto</h3>
+                <p>Intesa Sanpaolo</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/santini2.jpeg" alt="Speaker 5" class="img-fluid">
+              <div class="details">
+                <h3>Paolo Santini</h3>
+                <p>Università Politecnica delle Marche</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/shamman.jpg" alt="Speaker 5" class="img-fluid">
+              <div class="details">
+                <h3>Nathan Shammah</h3>
+                <p>Unitary Fund & Quantum Italia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
       Venue Section
     ============================-->
     <section id="venue" class="wow fadeInUp">
@@ -520,7 +581,7 @@
       <div class="container-fluid">
 
         <div class="section-header">
-          <h2>Venue</h2>
+          <h2>Dove</h2>
           <!-- <h2>Venue</h2> -->
           <!-- <p>Event venue location info and gallery</p> -->
         </div>
@@ -589,16 +650,7 @@
     <!--==========================
       Sponsors Section
     ============================-->
-    <section id="supporters" class="section-with-bg wow fadeInUp" >
-
-      <div class="container">
-        <div class="section-header">
-          <h2>Sponsor</h2>
-          <p>Presto disponibile</p>
-        </div>
-      </div>
-    </section>
-    <section id="supporters" class="section-with-bg wow fadeInUp" style="display: none;">
+    <section id="supporters" class="section-with-bg wow fadeInUp">
 
       <div class="container">
         <div class="section-header">
@@ -615,19 +667,25 @@
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="img/supporters/qff2.png" class="img-fluid" alt="">
+              <a href="https://www.quantumitalia.vc/" target="_blank">
+              <img src="img/supporters/quantumItalia.jpg" class="img-fluid" alt="">
+              </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="img/supporters/marchio_unipi_.gif" class="img-fluid" alt="">
+              <a href="https://www.ibm.com/quantum/events/fall-fest-2024" target="_blank">
+                <img src="img/supporters/qff2.png" class="img-fluid" alt="">
+              </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="img/supporters/dip.png" class="img-fluid" alt="">
+              <a href="https://www.unipi.it/" target="_blank">
+                <img src="img/supporters/marchio_unipi_.gif" class="img-fluid" alt="">
+              </a>
             </div>
           </div>
 
@@ -757,139 +815,6 @@
 
     </section>
 
-
-    <!--==========================
-      Buy Ticket Section
-    ============================-->
-    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
-      <div class="container">
-
-        <div class="section-header">
-          <h2>Prenota il biglietto</h2>
-        </div>
-
-      
-        <div class="row justify-content-center">
-        
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">21 Novembre</h5>
-                <h6 class="card-price text-center">Conferenza</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-clock-o"></i></span>09:00 - 18:30</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Quantum Computing 101</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Speaker da Accademia e Industria</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Pranzo e Cofee Breaks</li>
-                  <!-- <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Hackaton</li> -->
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" 
-                    data-ticket-type="pro-access" 
-                    onclick="window.open(
-                      'https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?',
-                      '_blank' // <- This is what makes it open in a new window.
-                    )">
-                    Prenota
-                </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">22 Novembre</h5>
-                <h6 class="card-price text-center">Hackathon</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-clock-o"></i></span>9:00 - 13:00</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Quantum Hackathon</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Premiazione</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <!-- <li><span class="fa-li"><i class="fa fa-check"></i></span>Hackathon</li> -->
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" 
-                    data-ticket-type="pro-access" 
-                    onclick="window.open(
-                      'https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?',
-                      '_blank' // <- This is what makes it open in a new window.
-                    )">
-                    Prenota
-                </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Pro Tier -->
-          <!-- <div class="col-lg-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Premium Access</h5>
-                <h6 class="card-price text-center">$350</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshop Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>After Party</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal"
-                    data-ticket-type="premium-access">Buy Now</button>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div> 
-
-      </div>
-
-      <!-- Modal Order Form -->
-      <div id="buy-ticket-modal" class="modal fade">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Buy Tickets</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form method="POST" action="#">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
-                </div>
-                <div class="form-group">
-                  <select id="ticket-type" name="ticket-type" class="form-control">
-                    <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
-                  </select>
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="btn">Buy Now</button>
-                </div>
-              </form>
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
-
-    </section>
-
     <!--==========================
       Contact Section
     ============================-->
@@ -919,7 +844,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Telegram</h3>
-              <p>Presto disponibile</p>
+              <p><a href="https://t.me/pisaquantumgroup">Unisciti al Gruppo</a></p>
             </div>
           </div>
 
