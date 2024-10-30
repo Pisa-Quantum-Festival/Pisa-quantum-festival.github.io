@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 600 300">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #3b4757;
+      }
+
+      .cls-3 {
+        fill: url(#Sfumatura_senza_nome_4-3);
+        opacity: .33;
+      }
+
+      .cls-3, .cls-4 {
+        mix-blend-mode: screen;
+      }
+
+      .cls-4 {
+        fill: url(#Sfumatura_senza_nome_4-4);
+        opacity: .67;
+      }
+
+      .cls-5 {
+        fill: url(#Sfumatura_senza_nome_4);
+      }
+
+      .cls-6 {
+        fill: url(#Sfumatura_senza_nome_4-2);
+      }
+    </style>
+    <linearGradient id="Sfumatura_senza_nome_4" data-name="Sfumatura senza nome 4" x1="92.19" y1="82.24" x2="193.73" y2="195.13" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#46b8c5"/>
+      <stop offset=".1" stop-color="#3ab3bd"/>
+      <stop offset=".2" stop-color="#2faeb5"/>
+      <stop offset=".3" stop-color="#24a9ae"/>
+      <stop offset=".4" stop-color="#19a4a6"/>
+      <stop offset=".5" stop-color="#119fa2"/>
+      <stop offset=".6" stop-color="#149faf"/>
+      <stop offset=".7" stop-color="#189ebb"/>
+      <stop offset=".8" stop-color="#1b9dc6"/>
+      <stop offset=".9" stop-color="#1d9dd0"/>
+      <stop offset="1" stop-color="#1f9cd8"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_4-2" data-name="Sfumatura senza nome 4" x1="93.81" y1="80.79" x2="195.35" y2="193.68" xlink:href="#Sfumatura_senza_nome_4"/>
+    <linearGradient id="Sfumatura_senza_nome_4-3" data-name="Sfumatura senza nome 4" x1="92.64" y1="81.83" x2="194.19" y2="194.72" xlink:href="#Sfumatura_senza_nome_4"/>
+    <linearGradient id="Sfumatura_senza_nome_4-4" data-name="Sfumatura senza nome 4" x1="93.23" y1="81.31" x2="194.77" y2="194.2" xlink:href="#Sfumatura_senza_nome_4"/>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g class="cls-1">
+    <g id="Livello_1">
+      <g id="Positive">
+        <g id="Logotype">
+          <g id="Italia">
+            <path id="Tracciato_7989" class="cls-2" d="M265.62,193.76h1.83v-13.98h-1.83v13.98Z"/>
+            <path id="Tracciato_7990" class="cls-2" d="M274.01,179.77v1.73h4.35v12.25h1.79v-12.25h4.35v-1.73h-10.5Z"/>
+            <path id="Tracciato_7991" class="cls-2" d="M294.26,179.77l-6.19,13.98h1.89l1.77-4.08h6.52l1.81,4.08h1.91l-6.2-13.98h-1.52ZM294.99,182.25l2.54,5.77h-5.06l2.52-5.77Z"/>
+            <path id="Tracciato_7992" class="cls-2" d="M308.32,179.77v13.98h8.59v-1.73h-6.76v-12.25h-1.83Z"/>
+            <path id="Tracciato_7993" class="cls-2" d="M323.48,193.76h1.83v-13.98h-1.83v13.98Z"/>
+            <path id="Tracciato_7994" class="cls-2" d="M337.85,179.77l-6.18,13.98h1.89l1.77-4.08h6.52l1.81,4.08h1.91l-6.2-13.98h-1.52ZM338.58,182.25l2.54,5.77h-5.06l2.52-5.77Z"/>
+          </g>
+          <g id="Quantum">
+            <path id="Tracciato_7996" class="cls-2" d="M252.09,142.47c0-4.51-1.38-5.84-6.1-5.84h-13.05c-5.09,0-6.15,1.33-6.15,5.84v9.23c0,5.73.64,7.11,6.15,7.11h13.05c4.72,0,6.1-1.11,6.1-5.84v-10.5ZM252.94,171.07l-5.2-5.57h-15.17c-10.72,0-13.85-3.08-13.85-12.2v-11.19c0-9.12,3.13-12.41,13.85-12.41h13.74c10.72,0,13.85,3.29,13.85,12.41v11.19c0,5.31-1.06,8.59-4.14,10.4l6.84,7.37h-9.92Z"/>
+            <path id="Tracciato_7997" class="cls-2" d="M279.78,165.87c-10.66,0-13.79-3.29-13.79-12.41v-16.34h7.96v16.13c0,4.88,1.64,5.89,6.47,5.89h8.28c5.15,0,6.47-1.01,6.47-5.89v-16.13h7.85v16.34c0,9.12-3.13,12.41-13.9,12.41h-9.34Z"/>
+            <path id="Tracciato_7998" class="cls-2" d="M338.88,152.87h-20.43c-1.86,0-2.97.64-2.97,2.92v1.96c0,2.02,1.22,2.71,3.24,2.71h14.85c3.71,0,5.31-.85,5.31-5.15v-2.44ZM318.14,165.87c-8.28,0-10.5-2.92-10.5-7.59v-2.7c0-4.83,2.02-7.59,9.97-7.59h21.27v-.63c0-3.66-1.38-4.62-4.88-4.62h-7.85v-5.63h7.85c9.18,0,12.79,3.29,12.79,10.61v7c0,8.33-2.92,11.14-13.1,11.14h-15.54Z"/>
+            <path id="Tracciato_7999" class="cls-2" d="M381.96,165.87v-16.02c0-4.77-1.33-5.94-6.42-5.94h-8.59c-4.99,0-6.42,1.17-6.42,5.94v16.02h-7.91v-16.29c0-9.18,3.13-12.47,13.79-12.47h9.6c10.72,0,13.85,3.29,13.85,12.47v16.29h-7.91Z"/>
+            <path id="Tracciato_8000" class="cls-2" d="M397.61,165.87v-22.33h-4.03v-6.42h4.03v-8.12h8.06v8.12h9.07v6.42h-9.07v22.33h-8.06Z"/>
+            <path id="Tracciato_8001" class="cls-2" d="M432.19,165.87c-10.66,0-13.79-3.29-13.79-12.41v-16.34h7.96v16.13c0,4.88,1.64,5.89,6.47,5.89h8.28c5.15,0,6.47-1.01,6.47-5.89v-16.13h7.85v16.34c0,9.12-3.13,12.41-13.9,12.41h-9.34Z"/>
+            <path id="Tracciato_8002" class="cls-2" d="M506.73,165.87v-17.29c0-3.55-1.33-4.67-4.35-4.67h-5.15c-4.72,0-5.89,1.17-5.89,4.67v17.29h-6.95v-17.29c0-3.5-1.06-4.67-5.94-4.67h-5.04c-3.13,0-4.35,1.11-4.35,4.67v17.29h-7.69v-18.46c0-7.06,2.71-10.29,10.29-10.29h6.95c5.84,0,8.17,1.65,9.23,5.04,1.01-3.39,3.5-5.04,9.18-5.04h7.16c7.59,0,10.29,3.24,10.29,10.29v18.46h-7.75Z"/>
+          </g>
+        </g>
+        <g id="Logomark">
+          <polygon class="cls-5" points="119.82 83.12 87.42 115.52 87.42 161.35 119.82 193.76 142.74 193.76 142.74 166.07 114.77 166.07 114.77 110.13 170.71 110.13 170.71 138.19 198.06 138.19 198.06 115.52 165.65 83.12 119.82 83.12"/>
+          <polygon class="cls-6" points="184.28 138.11 184.28 179.86 142.73 179.86 142.73 193.76 198.05 193.76 198.05 138.11 184.28 138.11"/>
+          <polygon class="cls-3" points="170.7 119.56 170.7 166.07 124.29 166.07 124.29 152.19 156.92 152.19 156.92 119.56 170.7 119.56"/>
+          <polygon class="cls-4" points="184.28 128.88 184.28 179.86 133.62 179.86 133.62 166.07 170.7 166.07 170.7 128.88 184.28 128.88"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
