@@ -124,92 +124,13 @@
       </div>
     </section>
 
-        <!--==========================
-      Buy Ticket Section
-    ============================-->
-    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
-      <div class="container">
-
-        <div class="section-header">
-          <h2>Prenota il biglietto</h2>
-          <p class="bigFont" style="font-size:30px">Posti limitati!</p>
-        </div>
-
-      
-        <div class="row justify-content-center">
-        
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">21 Novembre</h5>
-                <h6 class="card-price text-center">Conferenza</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-clock-o"></i></span>08:30 - 18:30</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Quantum Computing 101</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Speaker da Accademia e Industria</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Pranzo e Coffee Breaks Offerti</li>
-                  <!-- <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Hackaton</li> -->
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" 
-                    data-ticket-type="pro-access" 
-                    onclick="window.open(
-                      'https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?',
-                      '_blank' // <- This is what makes it open in a new window.
-                    )">
-                    Prenota!
-                </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">22 Novembre</h5>
-                <h6 class="card-price text-center">Hackathon</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-clock-o"></i></span>8:30 - 13:00</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Quantum Hackathon</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Premiazione (450€ in buoni Amazon)</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break Offerto</li>
-                  <!-- <li><span class="fa-li"><i class="fa fa-check"></i></span>Hackathon</li> -->
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" 
-                    data-ticket-type="pro-access" 
-                    onclick="window.open(
-                      'https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?',
-                      '_blank' // <- This is what makes it open in a new window.
-                    )">
-                    Prenota!
-                </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-      </div>
-
-    </section>
+   
 
     <!--==========================
       Schedule Section
     ============================-->
-    <section id="schedule"  > <!--Schedule section temp-->
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h2>Programma</h2>
-          <p></p>
-          <p>Presto disponibile</p>
-        </div>
-      </div>
-    </section>
-    <section id="schedule" style="display:none" >
+
+    <section id="schedule">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <!-- <h2>Event Schedule</h2> -->
@@ -236,6 +157,9 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time>08:30 <br> 09:00 </time></div>
               <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/logo.png" alt="Logo">
+                </div>
                 <h4>Registrazione</h4>
                 <p></p>
               </div>
@@ -255,10 +179,10 @@
               <div class="col-md-2"><time>09:30 <br> 10:30 </time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="img/staff/baldelli.jpg" alt="Baldelli">
+                  <img src="img/staff/tedeschi2.jpg" alt="Tedeschi">
                 </div>
                 <h4>Fondamenti di Quantum Computing.</h4>
-                <p>Alessio Baldelli, Università Politecnica delle Marche</p>
+                <p>Gabriele Tedeschi, Univeristà di Pisa</p>
               </div>
             </div>
 
@@ -722,6 +646,79 @@
           </div> -->
 
         </div>
+
+      </div>
+
+    </section>
+
+     <!--==========================
+      Buy Ticket Section
+    ============================-->
+    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Prenota il biglietto</h2>
+          <p class="bigFont" style="font-size:30px">Posti limitati!</p>
+        </div>
+
+      
+        <div class="row justify-content-center">
+        
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">21 Novembre</h5>
+                <h6 class="card-price text-center">Conferenza</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-clock-o"></i></span>08:30 - 18:30</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Quantum Computing 101</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Speaker da Accademia e Industria</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Pranzo e Coffee Breaks Offerti</li>
+                  <!-- <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Hackaton</li> -->
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" 
+                    data-ticket-type="pro-access" 
+                    onclick="window.open(
+                      'https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?',
+                      '_blank' // <- This is what makes it open in a new window.
+                    )">
+                    Prenota!
+                </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">22 Novembre</h5>
+                <h6 class="card-price text-center">Hackathon</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-clock-o"></i></span>8:30 - 13:00</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Quantum Hackathon</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Premiazione (450€ in buoni Amazon)</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break Offerto</li>
+                  <!-- <li><span class="fa-li"><i class="fa fa-check"></i></span>Hackathon</li> -->
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" 
+                    data-ticket-type="pro-access" 
+                    onclick="window.open(
+                      'https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?',
+                      '_blank' // <- This is what makes it open in a new window.
+                    )">
+                    Prenota!
+                </button>
+                </div>
+              </div>
+            </div>
+          </div>
 
       </div>
 
